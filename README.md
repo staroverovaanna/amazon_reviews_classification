@@ -2,21 +2,24 @@
 
 This is a pet-project, where I use some nlp-methods on data from Amazon Reviews 
 
-[here ypu can download the dataset https://www.kaggle.com/arhamrumi/amazon-product-reviews]
+[here you can download the dataset https://www.kaggle.com/arhamrumi/amazon-product-reviews]
 
-First, I apply a simple Logistic Regression for binary classification;
+## Steps of analysis
 
-After that, I train a PipeLine Logistic Regression;
+- First, I apply a simple Logistic Regression for binary classification;
 
-At the end, there is a Random Forest model given.
+- After that, I train a PipeLine Logistic Regression;
 
+- At the end, there is a Random Forest model given.
+
+## Results
 I will use precision score as a metrics to measure model-quality. My final score is 0.92.
 
 
 Exploratory analysis: I will process data, look for descriptive statistics, histograms and some examples.
 Text transformation: I use nltk to get tokens and get rid of noise.
 
-Some graphs from this work:
+## Some graphs from this work:
 
 
 The Histogram of the Original Scores:
